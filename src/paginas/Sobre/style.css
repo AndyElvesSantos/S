@@ -1,0 +1,47 @@
+.secao-banner-sobre {
+  background-color: rgb(249, 219, 212);
+  background-image: url("C:\development\DEVMEDIA\React\projeto-sorveteria\public\assets\banner-sobre.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secao-banner-sobre h1 {
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.secao-textos-sobre {
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+.secao-image-sobre {
+  display: flex;
+  width: 100%;
+}
+.secao-image-sobre img {
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .secao-banner-sobre h1 {
+    font-size: 40px;
+  }
+  .secao-textos-sobre h2 {
+    font-size: 20px;
+  }
+  .secao-textos-sobre {
+    padding-top: 25px;
+    max-width: 350px;
+  }
+  .secao-image-sobre {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .secao-image-sobre img {
+    width: 100%;
+  }
+}

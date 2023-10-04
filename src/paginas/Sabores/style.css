@@ -1,0 +1,61 @@
+.secao-banner-sabores {
+  background-color: rgb(249, 219, 212);
+  background-image: url("C:\development\DEVMEDIA\React\projeto-sorveteria\public\assets\banner-sabores.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secao-banner-sabores h1 {
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+@media screen and (max-width: 600px) {
+  .secao-banner-sabores h1 {
+    font-size: 40px;
+  }
+}
+.sabores-texto {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.secao-principal-sabores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  padding-bottom: 100px;
+}
+.cards {
+  width: 31%;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(112, 105, 105);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards img {
+  width: 250px;
+}
+.cards p {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .cards {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .secao-principal-sabores {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}

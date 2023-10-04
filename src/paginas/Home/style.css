@@ -1,0 +1,163 @@
+/* SEÇÃO BANNER */
+.secao-banner {
+  background-color: rgb(249, 219, 212);
+  background-image: url("C:\development\DEVMEDIA\React\projeto-sorveteria\public\assets\banner-home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secao-banner h1 {
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+@media (max-width: 666px) {
+  .secao-banner {
+    background-position: bottom;
+    height: 600px;
+  }
+  .secao-banner h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+/* SEÇÃO SABORES */
+.secao-sabores {
+  width: 100%;
+  display: flex;
+}
+.secao-sabores figure {
+  width: 50%;
+}
+.secao-sabores img {
+  width: 100%;
+}
+.secao-sabores-texto {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.secao-sabores-texto p {
+  max-width: 500px;
+
+  padding-top: 30px;
+}
+.secao-sabores-texto span {
+  font-style: italic;
+}
+/* SEÇÃO EVENTOS */
+.secao-eventos {
+  width: 100%;
+  display: flex;
+}
+.secao-eventos figure {
+  width: 50%;
+}
+.secao-eventos img {
+  width: 100%;
+}
+.secao-eventos-texto {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.secao-eventos-texto p {
+  max-width: 500px;
+
+  padding-top: 30px;
+}
+.secao-eventos-texto span {
+  font-style: italic;
+}
+
+/* SECAO SOBRE */
+.secao-sobre {
+  width: 100%;
+  display: flex;
+}
+.secao-sobre figure {
+  width: 50%;
+}
+.secao-sobre img {
+  width: 100%;
+}
+.secao-sobre-texto {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.secao-sobre-texto p {
+  max-width: 500px;
+
+  padding-top: 30px;
+}
+.secao-sobre-texto span {
+  font-style: italic;
+}
+@media screen and (max-width: 768px) {
+  .secao-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .secao-sabores {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .secao-sabores figure {
+    width: 100%;
+  }
+  .secao-sabores-texto {
+    width: 100%;
+  }
+  .secao-sabores-texto p {
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .secao-eventos {
+    flex-direction: column;
+    width: 100%;
+  }
+  .secao-eventos figure {
+    width: 100%;
+  }
+  .secao-eventos-texto {
+    width: 100%;
+  }
+  .secao-eventos-texto p {
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .secao-sobre {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .secao-sobre figure {
+    width: 100%;
+  }
+  .secao-sobre-texto {
+    width: 100%;
+  }
+  .secao-sobre-texto p {
+    padding: 0 20px 20px 20px;
+    text-align: center;
+  }
+}
